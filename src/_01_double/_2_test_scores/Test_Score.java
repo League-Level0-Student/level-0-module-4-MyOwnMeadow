@@ -14,22 +14,26 @@ public class Test_Score {
 			JOptionPane.showMessageDialog(null, "Uh.. did you just not do the test? Or did you purpisly fail it?");
 		}
 		else if(testScore == 96.5) {
-			JOptionPane.showMessageDialog(null, "That's pretty darn good. I got... wait a seconed... we got the exact same score! How good is that?");
+			JOptionPane.showMessageDialog(null, "That's pretty darn good. I got... wait a seconed... we got the exact same score! How cool is that?");
 		}
 		else if(testScore == 110) {
-			JOptionPane.showMessageDialog(null, "Wait... is that even...!? That is the maximem possible score, if you incled the bones quetions. Those quetions were really hard! What were the ancers to them?");
+			JOptionPane.showMessageDialog(null, "Wait... is that even...!? That is the maximem possible score, if you incled the bones quetions.\n"
+					+ " Those quetions were really hard! What were the ancers to them?");
 		}
 		else if(testScore < 20) {
 			JOptionPane.showMessageDialog(null, "...Oh... Maybe you shold give up on going to collage, and just work at a factery.");
 		}
 		else if(testScore < 50) {
-			JOptionPane.showMessageDialog(null, "Maybe you shold just give up on going to collage, and just become a chief insted? Being a painter might suit you, as well.");
+			JOptionPane.showMessageDialog(null, "Maybe you shold just give up on going to collage, and just become a chief insted?\n"
+					+ "Being a painter might suit you, as well.");
 		}
 		else if(testScore < 60) {
-			JOptionPane.showMessageDialog(null, "Ah, that sucks. You know, you should start studying. Or at least change your stratagy if you do, because it is an apsolte failer of a strategy.");
+			JOptionPane.showMessageDialog(null, "Ah, that sucks. You know, you should start studying. Or at least change your stratagy if you do,\n"
+					+ "because it is an apsolte failer of a strategy.");
 		}
 		else if(testScore < 70) {
-			JOptionPane.showMessageDialog(null, "Maybe you can come by my house next time to study? We could also play some video games during brakes!");
+			JOptionPane.showMessageDialog(null, "Maybe you can come by my house next time to study?\n"
+					+ "We could also play some video games during brakes!");
 		}
 		else if(testScore < 80) {
 			JOptionPane.showMessageDialog(null, "So, you got a C, huh? Not to shaby, if I do say so myself.");

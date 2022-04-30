@@ -27,7 +27,7 @@ public class StarStudent {
 	
 	public static void didYouPass(boolean passedExam) {
 		
-		if(passedExam = true) {
+		if(passedExam = !true) {
 			JOptionPane.showMessageDialog(null, "Congratulations!");
 		}
 		else {
