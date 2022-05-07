@@ -51,22 +51,43 @@ public class GooglyEyes extends PApplet {
     public void setup() {
     	OWL = loadImage("OWL.jpg");
     	OWL.resize(800, 600);
-    	background(OWL);
+    	background(OWL); 
+    	
+   
     }
-
+ 	int mpX = mouseX;
+ 	int mpY = mouseY;
+ 	
     @Override
     public void draw() {
+   
     	if(mousePressed == true) {
     		println("X: " + mouseX + ", Y: " + mouseY);
+    	}
+    	mpX = mouseX;
+    	mpY = mouseY;
+    	
+    	if(mouseX < 274) {
+    		mpX = 274;
+    	}
+    	else if(mouseX > 301) {
+    		mpX = 301;
+    	}
+    	if(mouseY < 172) {
+    		mpY = 172;
+    	}
+    	else if(mouseY > 194) {
+    		mpY = 194;
     	}
     	
     	fill(360, 200, 60);
     	ellipse(288, 183, 80, 60);
     	ellipse(475, 178, 80, 60);
     	
+    	
     	fill(1, 1, 1);
-    	ellipse(mouseX, mouseY, 40, 30);
-    	ellipse(mouseX + 187, mouseY - 5, 40, 30);
+    	ellipse(mpX, mpY, 40, 30);
+    	ellipse(mpX + 187, mpY - 5, 40, 30);
     }
 
     static public void main(String[] args) {
